@@ -3,8 +3,8 @@ vmc = -273.0
 vmf = -459.67
 vmk = 0.0
 
-m = input(" ")
-t = float(input(" "))
+m = input("Qual Medida Você deseja? [C/F/K]: ")
+t = float(input("Qual a Temperatura dada?: "))
 
 #Celsius
 if (m == "C" or "c"):
